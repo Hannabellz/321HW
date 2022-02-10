@@ -1,15 +1,14 @@
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     background-color: rgb(40, 50, 94);
     color: white;
 }
-h2{
-    font-size:x-large;
-}
+
 .special{
     border: 1px solid rgb(173, 195, 218);
     float: right;
 }
 .highlight{
     background-color: yellow;
+    color: black;
 }

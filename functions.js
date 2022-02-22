@@ -391,35 +391,40 @@ function achievements(){
     var tvTime = localStorage.getItem("tv");
     var img = document.createElement("img");
     if(fourthDream=="true"||localStorage.getItem("overallFourth")=="true"){
-        img.src = "Complete Dreamer.png"
+        img.src = "CompleteDreamer.png"
+        img.alt = "You slept through the night to get this token"
         var src = document.getElementById("images")
         src.appendChild(img)
         localStorage.setItem("overallFourth", true)
     }
     if(mealTime=="true"||localStorage.getItem("overallMeal")=="true"){
         img = document.createElement("img");
-        img.src = "Bonus Meal.png"
+        img.src = "BonusMeal.png"
+        img.alt = "You prepared special meals for yourself ahead of time to complete this token."
         var src = document.getElementById("images")
         src.appendChild(img)
         localStorage.setItem("overallMeal",true)
     }
     if(musical=="true"||localStorage.getItem("overallMusic")=="true"){
         img = document.createElement("img");
-        img.src = "Music Lover.png"
+        img.src = "MusicLover.png"
+        img.alt = "You jammed out to music to earn this token."
         var src = document.getElementById("images")
         src.appendChild(img)
         localStorage.setItem("overallMusic",true)
     }
     if(puzzler=="true"||localStorage.getItem("overallPuzzle")=="true"){
         img = document.createElement("img");
-        img.src = "Puzzle Maker.png"
+        img.src = "PuzzleMaker.png"
+        img.alt = "You worked on becoming a puzzle master to earn this token."
         var src = document.getElementById("images")
         src.appendChild(img)
         localStorage.setItem("overallPuzzle",true)
     }
     if(tvTime=="true"||localStorage.getItem("overallEv")=="true"){
         img = document.createElement("img");
-        img.src = "The Origins of Evalyn.png"
+        img.src = "TheOriginsofEvalyn.png"
+        img.alt = "You aquired Evalyn lore to get this token."
         var src = document.getElementById("images")
         src.appendChild(img)
         localStorage.setItem("overallEv",true)

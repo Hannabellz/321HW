@@ -1,0 +1,14 @@
+## Inspiration
+Mac had mutations as a topic brought up in one of his classes. Hannah knew she wanted to push herself for this Hackathon by making her first "full" game in Unity...ever. It took some conversation to settle on just exactly what the idea would entail, but medicinal practices meet gaming go-getters in a wonderful way.
+
+## What it does
+It highlights some of the core functionality Unity provides on top of some more choice-oriented things. Player's Choice Matters (as it always should!) and it isn't terribly punishing when there is too much damage taken from the given round (because yes, there's combat against ill-willed illnesses, after all!)
+
+## How we built it
+Mac took charge in the textual writing and artistic choices by using MediBang Paint Pro and a HUION Drawing Tablet, whereas Hannah used Unity (C#) to put the scripts, scenes, and art together for the "final" picture. 
+
+## Challenges we ran into
+Since there was nearly no experience with Unity going into this, on top of figuring things out, there were of course errors to figure out. Some were more straightforward whereas others took some digging to help find the root cause. But as far as it stands now, we made it through!
+
+## Accomplishments that we're proud of
+We're really proud of how the art turned out, and the small bit of enemy AI going on!
